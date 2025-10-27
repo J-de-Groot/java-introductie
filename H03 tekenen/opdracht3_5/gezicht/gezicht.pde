@@ -1,8 +1,11 @@
 size(400,400);
+int afmeting = 50;
 background(255,255,255);
-fill(143,82,0);
-arc(150,90,55,55,1*PI,2*PI);
-arc(250,100,50,50,0*PI,2*PI);
 fill(0,0,0);
+arc(150,150,afmeting,afmeting,0*PI,1*PI);
+arc(250,150,afmeting,afmeting,0*PI,1*PI);
 arc(200,200,200,150,0*PI,1*PI);
-ellipse(150,100,50,50);
+fill(255,255,255);
+ellipse(150,100,afmeting,afmeting);
+ellipse(250,100,afmeting,afmeting);
+ellipse(150,350,afmeting,afmeting);
