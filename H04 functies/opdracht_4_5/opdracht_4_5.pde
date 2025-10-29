@@ -1,0 +1,13 @@
+size(400,400);
+int afmeting = 50;
+background(255,255,255);
+fill(0,0,0);
+int X = 150;
+int Y = 150;
+arc(X,Y,afmeting,afmeting,0*PI,1*PI);
+arc(X+100,Y,afmeting,afmeting,0*PI,1*PI);
+arc(X+50,Y+50,200,150,0*PI,1*PI);
+fill(255,255,255);
+ellipse(X,Y-50,afmeting,afmeting);
+ellipse(X+100,Y-50,afmeting,afmeting);
+ellipse(X,Y+200,afmeting,afmeting);

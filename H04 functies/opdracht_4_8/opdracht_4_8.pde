@@ -1,0 +1,10 @@
+int seconds = 31536000;
+int minutes = seconds / 60;
+int hours = minutes / 60;
+int days = hours / 24;
+int years = days / 365;
+println("Seconden= "+ seconds);
+println("Minuten= "+ minutes);
+println("Uren= "+ hours);
+println("Dagen= "+ days);
+println("Jaren= "+ years);
