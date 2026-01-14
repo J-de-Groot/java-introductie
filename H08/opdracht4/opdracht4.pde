@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+ArrayList<String> boodschappen = new ArrayList<String>();
+boodschappen.add("brood");
+boodschappen.add("boter");
+boodschappen.add("kaas");
+boodschappen.add("eieren");
+boodschappen.add("melk");
+println(boodschappen.get(1));
+boodschappen.remove(0);
+println(boodschappen.size());
